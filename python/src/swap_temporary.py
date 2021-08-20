@@ -1,2 +1,5 @@
 def swap_temporary(a, b):
-    return 13, 14
+    c = a
+    a = b
+    b = c
+    return a, b

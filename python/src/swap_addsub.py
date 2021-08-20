@@ -1,2 +1,5 @@
 def swap_addsub(a, b):
-    return 13, 14
+    a = a + b
+    b = a - b
+    a = a - b
+    return a, b
